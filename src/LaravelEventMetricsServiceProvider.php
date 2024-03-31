@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton;
+namespace BennyC\LaravelEventMetrics;
 
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use VendorName\Skeleton\Commands\SkeletonCommand;
+use BennyC\LaravelEventMetrics\Commands\LaravelEventMetricsCommand;
 
-class SkeletonServiceProvider extends PackageServiceProvider
+class LaravelEventMetricsServiceProvider extends PackageServiceProvider
 {
     public function configurePackage(Package $package): void
     {
@@ -16,10 +16,10 @@ class SkeletonServiceProvider extends PackageServiceProvider
          * More info: https://github.com/spatie/laravel-package-tools
          */
         $package
-            ->name('skeleton')
+            ->name('laravel-event-metrics')
             ->hasConfigFile()
             ->hasViews()
-            ->hasMigration('create_skeleton_table')
-            ->hasCommand(SkeletonCommand::class);
+            ->hasMigration('create_laravel-event-metrics_table')
+            ->hasCommand(LaravelEventMetricsCommand::class);
     }
 }
