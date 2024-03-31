@@ -2,7 +2,6 @@
 
 namespace BennyC\LaravelEventMetrics;
 
-use BennyC\LaravelEventMetrics\Commands\LaravelEventMetricsCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
 
