@@ -2,9 +2,9 @@
 
 namespace BennyC\LaravelEventMetrics\Tests;
 
+use BennyC\LaravelEventMetrics\LaravelEventMetricsServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use BennyC\LaravelEventMetrics\LaravelEventMetricsServiceProvider;
 
 class TestCase extends Orchestra
 {
